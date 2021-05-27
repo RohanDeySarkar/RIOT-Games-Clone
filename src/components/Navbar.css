@@ -1,0 +1,87 @@
+.navbar {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbarLeft {
+    flex: 0.1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    cursor: pointer;
+    /* background-color: rgb(130, 173, 238); */
+}
+
+.navbarLeft > img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    cursor: pointe;
+}
+
+.navbarMiddle {
+    flex: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: rgb(130, 238, 197); */
+}
+
+.navbarOptions {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+    height: 45px;
+}
+
+.navbarOptions > h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+}
+
+.navbarOptions > .MuiSvgIcon-root {
+    color: #757575;
+    font-size: 25px;
+    transition: 200ms;
+}
+
+.navbarOptions:hover > .MuiSvgIcon-root {
+    color: white;
+}
+
+.navbarOptions:hover {
+    border-bottom: 1px solid #FF4655;
+}
+
+.navbarRight {
+    flex: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: violet; */
+}
+
+.navbarRight > .MuiSvgIcon-root {
+    color: whitesmoke;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navbarRight > a {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: #FF4655;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
