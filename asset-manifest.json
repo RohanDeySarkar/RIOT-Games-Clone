@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/RIOT-Games-Clone/static/css/main.cd4d8ef9.chunk.css",
+    "main.js": "/RIOT-Games-Clone/static/js/main.99621266.chunk.js",
+    "main.js.map": "/RIOT-Games-Clone/static/js/main.99621266.chunk.js.map",
+    "runtime-main.js": "/RIOT-Games-Clone/static/js/runtime-main.29f5426c.js",
+    "runtime-main.js.map": "/RIOT-Games-Clone/static/js/runtime-main.29f5426c.js.map",
+    "static/js/2.1b1eb4ce.chunk.js": "/RIOT-Games-Clone/static/js/2.1b1eb4ce.chunk.js",
+    "static/js/2.1b1eb4ce.chunk.js.map": "/RIOT-Games-Clone/static/js/2.1b1eb4ce.chunk.js.map",
+    "index.html": "/RIOT-Games-Clone/index.html",
+    "static/css/main.cd4d8ef9.chunk.css.map": "/RIOT-Games-Clone/static/css/main.cd4d8ef9.chunk.css.map",
+    "static/js/2.1b1eb4ce.chunk.js.LICENSE.txt": "/RIOT-Games-Clone/static/js/2.1b1eb4ce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29f5426c.js",
+    "static/js/2.1b1eb4ce.chunk.js",
+    "static/css/main.cd4d8ef9.chunk.css",
+    "static/js/main.99621266.chunk.js"
+  ]
+}
