@@ -1,6 +1,6 @@
 export const agents = [
     {
-        id: "1",
+        id: "01",
         name: "brimstone",
         image: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt26fcf1b5752514ee/5eb7cdbfc1dc88298d5d3799/V_AGENTS_587x900_Brimstone.png",
         role: "controller",
@@ -9,7 +9,7 @@ export const agents = [
     },
     
     {
-        id: "2",
+        id: "02",
         name: "phoenix",
         image: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf0200e1821b5b39f/5eb7cdc144bf8261a04d87f9/V_AGENTS_587x900_Phx.png",
         role: "duelist",
@@ -18,7 +18,7 @@ export const agents = [
     },
     
     {
-        id: "3",
+        id: "03",
         name: "Sage",
         image: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png",
         role: "sentinel",
@@ -27,7 +27,7 @@ export const agents = [
     },
     
     {
-        id: "4",
+        id: "04",
         name: "sova",
         image: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf11234f4775729b7/5ebf2c275e73766852c8d5d4/V_AGENTS_587x900_ALL_Sova_2.png",
         role: "INITIATOR",
@@ -36,7 +36,7 @@ export const agents = [
     },
     
     {
-        id: "5",
+        id: "05",
         name: "viper",
         image: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png",
         role: "controller",
@@ -45,7 +45,7 @@ export const agents = [
     },
     
     {
-        id: "6",
+        id: "06",
         name: "cypher",
         image: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt158572ec37653cf3/5eb7cdc19df5cf37047009d1/V_AGENTS_587x900_Cypher.png",
         role: "sentinel",
@@ -54,7 +54,7 @@ export const agents = [
     },
     
     {
-        id: "7",
+        id: "07",
         name: "reyna",
         image: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6577b1f58530e6b2/5eb7cdc121a5027d77420208/V_AGENTS_587x900_Reyna.png",
         role: "duelist",
@@ -62,7 +62,7 @@ export const agents = [
         biography: "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.",
     },
     {
-        id: "8",
+        id: "08",
         name: "killjoy",
         image: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt53405c26141beff8/5f21fda671ec397ef9bf0894/V_AGENTS_587x900_KillJoy_.png",
         role: "sentinel",
@@ -70,7 +70,7 @@ export const agents = [
         biography: "The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.",
     },
     {
-        id: "9",
+        id: "09",
         name: "breach",
         image: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt100d13bfa8286a3d/5eb7cdc11ea0c32e33b95fa2/V_AGENTS_587x900_Breach.png",
         role: "INITIATOR",

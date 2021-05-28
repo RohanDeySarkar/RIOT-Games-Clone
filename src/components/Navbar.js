@@ -12,6 +12,12 @@ function Navbar() {
                 <img 
                     src="https://www.riotgames.com/darkroom/800/662c6e258b3f5287e70b7548f152b03a:f873f124ebda69d2a1157d062985fcb9/riot-logotype-white-rgb.png"
                     alt=""
+                    className="icon"
+                />
+                <img 
+                    src="https://cdn-images-1.medium.com/max/1200/1*IOMogY9xupXEg_ndWOb_4A.png"
+                    alt=""
+                    className="iconFist"
                 />
                 <div style={{marginLeft: "10px", borderLeft: "1px solid #757575", height: "25px"}} ></div>
                 <img 
@@ -19,7 +25,7 @@ function Navbar() {
                     alt=""
                 />
             </div>
-
+           
             <div className="navbarMiddle">
                 <div className="navbarOptions" onClick={() => window.open("https://playvalorant.com/en-us/maps/", '_blank')}>
                     <h2>game info</h2>

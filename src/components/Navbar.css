@@ -20,8 +20,31 @@
     height: 50px;
     width: 50px;
     object-fit: contain;
-    cursor: pointe;
+    cursor: pointer;
 }
+
+.iconFist {
+    opacity: 0.9;
+    transition: 200ms ease-in-out;
+}
+
+.icon {
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+}
+
+.navbarLeft:hover > .iconFist {
+    transform: translateY(15%);
+    opacity: 0;
+}
+
+.navbarLeft:hover > .icon {
+    opacity: 1;
+}
+
 
 .navbarMiddle {
     flex: 0.7;
@@ -36,7 +59,7 @@
     align-items: center;
     margin: 0 10px;
     cursor: pointer;
-    height: 45px;
+    height: 60px;
 }
 
 .navbarOptions > h2 {
@@ -44,6 +67,7 @@
     font-size: 12px;
     letter-spacing: 0.5px;
     font-weight: 800;
+    margin-top: 8px;
 }
 
 .navbarOptions > .MuiSvgIcon-root {

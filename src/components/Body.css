@@ -55,14 +55,28 @@ border-radius: 40px;
 
 
 .bodyMiddle {
-    flex: 0.5;  
+    flex: 0.5; 
+    /* animation: bounce 200ms ease-in-out;  */
+    transition: transform 200ms ease-in-out;
+    /* background-color: blue; */
 }
 
-.bodyMiddle > img {
-    height: 40rem;
+.bodyMiddle > div > img {
+    /* height: 40rem;
     width: 50rem;
-    object-fit: contain;
+    object-fit: contain; */
+
+    animation: bounce 2s ease-in forwards infinite alternate; 
 }
+
+@keyframes bounce {
+    100% {
+        transform: translateY(2%);
+    }
+    0% {
+        transform: translateY(0);
+    }
+} 
 
 .bodyRight {
     flex: 0.2;  

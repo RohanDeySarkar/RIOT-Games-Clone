@@ -60,11 +60,12 @@ function Body() {
                     className="container"
                     initial={{ scale: 0 }}
                     animate={{ rotate: 0, scale: 0.72 }}
+                    transition={{ duration: 0.5 }}
                 >
                     <img 
-                    src={image}
-                    alt="media"
-                />
+                        src={image}
+                        alt="media"
+                    />
                 </motion.div>
                 
             </div>
